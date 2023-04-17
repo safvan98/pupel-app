@@ -1,0 +1,250 @@
+/* .main{
+    border-style: solid;
+    border-color: #323232b0;
+    border-right: 100px;
+} */
+
+.container{
+    
+    width : 100%;
+    display: flex;
+    /* border-width: 0px 0px 0px 35px; */
+    
+}
+
+.headText{
+    display: flex;
+
+    background-color: #1a1919;
+ 
+}
+.textContent{
+    padding: 181px 92px;
+    flex: 50%;
+
+}
+.sentence_one {
+    font: 36px;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.sentence_three {
+    font: 36px;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.sentence_two {
+    font-size: 48px;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: -webkit-linear-gradient(30deg,#4ef2bd 0%,#26a9b7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.sentence_four {
+    font: 36px;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.image{
+    height: 500px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 104px;
+    /* margin-top: 21px; */
+    margin-bottom: 30px;
+}
+.handLImage{
+    background: #1a1919;
+    flex: 50%;
+    text-align: center;
+
+}
+
+.txtOne{
+    height: 10px;
+    width: 10px;
+    margin: 0;
+    position: absolute;
+    top: 65%;
+    left: 58%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    color: aliceblue;
+    font-size: 40px;
+}
+.txtTwo{
+    height: 10px;
+    width: 10px;
+    margin: 0;
+    position: absolute;
+    top: 101%;
+    left: 80%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    color: aliceblue;
+    font-size: 40px;
+}
+.txtThree{
+    height: 10px;
+    width: 10px;
+    margin: 0;
+    position: absolute;
+    top: 27%;
+    left: 86%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    color: aliceblue;
+    font-size: 40px;
+}
+
+.imojiOne{
+    font-size: 30px;
+    z-index: 1;
+    
+    margin-left: 9%;
+    margin-top: 34%;
+    position: absolute;
+
+  }
+
+  .imojiTwo{
+    font-size: 30px;
+    z-index: 1;
+    margin-left: 32%;
+    position: absolute;
+    margin-top: 15%;
+  }
+  .imojiThree{
+    font-size: 30px;
+    z-index: 1;
+    margin-left: 36%;
+    position: absolute;
+    margin-top: 37%;
+  }
+
+@media only screen and (max-width: 768px) {
+    .container{
+        flex-direction: column;
+        width: 100%;
+    }
+    .handLImage {
+        flex: 100%;
+        flex-direction: column;
+        /* display: none; */
+     }
+   
+    .headText{
+        flex: 100%;
+        flex-direction: column;
+        /* display: block; */
+
+    }
+    .textContent{
+
+        margin-bottom: -161px;
+    }
+    
+    .image{
+        margin-top: 21px;
+    }
+    .sentence_one {
+      font-size: 24px;
+    }
+    .sentence_two {
+      font-size: 36px;
+    }
+    .sentence_four {
+      font-size: 24px;
+    }
+    /* .txtOne{
+        
+        top: 164%;
+    left: 31%;
+
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        
+    }
+    .txtTwo{
+        
+        
+        top: 101%;
+        left: 80%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        
+    }
+    .txtThree{
+        
+    
+        top: 135%;
+        left: 120%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        
+    } */
+    .imojiOne{
+        font-size: 30px;
+        z-index: 1;
+        
+        margin-left: 134px;
+        margin-top: 375px;
+        position: absolute;
+    
+      }
+    
+      .imojiTwo{
+        font-size: 30px;
+        z-index: 1;
+        margin-left: 379px;
+        position: absolute;
+        margin-top: 170px;
+      }
+      .imojiThree{
+        font-size: 30px;
+        z-index: 1;
+        margin-left: 403px;
+        position: absolute;
+        margin-top: 445px;
+      }
+  }
+/* 
+  .imojiOne{
+    font-size: 30px;
+    z-index: 1;
+    
+    margin-left: 134px;
+    margin-top: 375px;
+    position: absolute;
+
+  }
+
+  .imojiTwo{
+    font-size: 30px;
+    z-index: 1;
+    margin-left: 379px;
+    position: absolute;
+    margin-top: 170px;
+  }
+  .imojiThree{
+    font-size: 30px;
+    z-index: 1;
+    margin-left: 403px;
+    position: absolute;
+    margin-top: 445px;
+  } */

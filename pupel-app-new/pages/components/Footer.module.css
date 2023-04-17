@@ -1,0 +1,53 @@
+.main{
+    background-color: #1a1919;
+
+}
+.container{
+    color: aliceblue;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 100px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.image{
+    display: flex;
+    flex: 20%;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+}
+
+.list ul{
+    flex-direction: row;
+    text-decoration: none;
+}
+.listItem{
+    flex: 25%;
+}
+.logo{
+    
+    margin-left : 10px;
+}
+.terms{
+    margin-left: 35px;
+}
+.tOne p{
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.tOne p:hover{
+    background: -webkit-linear-gradient(30deg,#ffc75e 0,#f77c83 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+  }
+
+.tOne h3{
+    margin-top: 15px;
+    font-size: 25px;
+}

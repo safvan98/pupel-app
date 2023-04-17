@@ -1,0 +1,88 @@
+.main{
+    display: flex;
+    background-color: #1a1919;
+    justify-content: center;
+    flex-direction: column;
+}
+.mainHead{
+    color: aliceblue;
+    margin: 20px;
+    text-align: center;
+}
+.faqsMain{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+
+}
+.faqsMain div{
+    font-size: 10px;
+    color: white;
+    /* background-color: aquamarine; */
+    margin: 10px;
+    margin-bottom: 0px;
+    padding: 18px;
+    border-radius: 7px;
+    border: solid 1px white;
+    padding-bottom:5px;
+}
+.faqDiv{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    
+}
+.faqsMain a{
+  text-decoration: none;
+  font-size: 1.55rem;
+    
+}
+.aOne{
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    /* background-color: aquamarine; */
+    /* margin: 10px;
+    padding: 18px; */
+    border-radius: 7px;
+    border: solid 10px rgb(137 132 132 / 42%);
+}
+
+div.aOne{
+    font-size: 18px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-bottom: solid 10px #8d8a8a85;
+}
+.first h3{
+    background-color: #1a1919;
+    border-radius: 7px;
+    border: solid 1px white;
+    padding: 10px;
+    margin-bottom: 0px;
+    color: aliceblue;
+}
+
+.qOne:hover{
+    color: rgb(129, 137, 144);
+    /* background-color: aqua; */
+    cursor: pointer;
+}
+.faqsMain:hover{
+    cursor: pointer;
+
+}
+
+.qOne{
+    color: aliceblue;
+    /* background-color: aqua; */
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+.ind{
+    display: flex;
+    justify-content: space-between;
+}
+

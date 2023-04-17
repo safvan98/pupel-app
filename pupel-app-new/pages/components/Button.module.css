@@ -1,0 +1,38 @@
+.btn {
+    display: inline-block;
+    padding: 11px 35px 10px;
+    border-radius: 30px;
+    background: linear-gradient(to bottom,  #0955f9 0%,#33ccff  100%);
+    font: 17px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    transition: background 1.5s;
+    
+    z-index: 1;
+    outline: none;
+    border: none;
+  }
+  
+  .btn:hover {
+    /* background: linear-gradient(to top,  #f96509 0%,#33ccff  100%); */
+    background: #f96509;
+  } 
+/* .btn {
+    z-index: 1;
+    position: relative;
+    padding: 11px 35px 10px;
+    margin: 10px auto;
+    text-align: center;
+    color: white;
+    font: 17px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    transition: color .5s;
+    cursor: pointer;
+    border-radius: 30px;
+} */
+  
